@@ -306,8 +306,3 @@ function changeMessage(){
     }
     document.getElementById("startBttn").textContent = "Again?";
 }
-//var clicks = 0; // should be var not int/
-//    function changeMessage() {
-//        clicks += 1;
-//        document.getElementById("line").innerHTML = clicks; //getElementById() not getElementByID() Which you corrected in edit
-// }
