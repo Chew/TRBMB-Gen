@@ -12,13 +12,6 @@ html, body {
     font-family: 'Inconsolata',sans-serif;
 }
 
-#haiku{
-    padding-top: 7%;
-    padding-bottom: 2%;
-    font-size: 1.75em;
-    
-}
-
 .line{
     padding-top: 10px;
     padding-bottom: 10px;
@@ -32,11 +25,4 @@ footer{
 
 footer a{
     font-size: 0.75em;
-}
-
-#startBttn{
-    color: black;
-    font-size: 0.8em;
-    height: 25px;
-    width: 150px;
 }
