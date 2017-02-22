@@ -2,4 +2,4 @@
 
 Code for my That Really Blanks my Blank Generator!
 
-Visit the website here: http://trbmb.chewcraft.me
+Visit the website here: http://trbmb.chew.pw
