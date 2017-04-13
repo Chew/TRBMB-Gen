@@ -5,6 +5,15 @@ html, body {
     background-color: #9AE8B6;
     color: #4B37E8;
 }
+
+div.wrap {
+    height:100%; overflow:hidden;
+}
+
+body {
+    overflow: hidden; 
+}
+
 #wrapper {
 	min-height:100%;
 	position:relative;
