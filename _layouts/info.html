@@ -1,21 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-    <script src="main.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <html prefix="og: http://ogp.me/ns#">
-    <meta name="description" content="{{ page.title }}" >
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:description" content="{{ page.title }}" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="Chewsterchew" />
-</head>
+
+{% include head.html %}
 
 <body>
     <div id="wrapper">
@@ -23,17 +9,11 @@
             <h1>{{ page.title }}</h1>
         </header>
         <p>{{ content }}</p>
+
+
+
+{% include footer.html %}
      </div>
 
-
-     <footer>
-       Created By Chewsterchew</br>
-       <a href="what">What is TRBMB?</a>
-       <a href="updatelog">Update Log</a>
-       <a href="http://ctt.ec/2Bofm">Tweet Us!</a>
-       <a href="http://twitter.com/TRBMBPhraseGen">Twitter Bot</a><br/>
-       <a class="github-button" href="https://github.com/Chewsterchew/TRBMB-Gen" data-icon="octicon-star" data-count-href="/Chewsterchew/TRBMB-Gen/stargazers" data-count-api="/repos/Chewsterchew/TRBMB-Gen#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star this on GitHub">Star</a>
-
-     </footer>
 </body>
 </html>

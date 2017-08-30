@@ -1,23 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
- <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-    <script src="changemessage.js"></script>
-    <script src="words.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <html prefix="og: http://ogp.me/ns#">
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.title }}" >
-    <meta property="og:title" content="{{ site.title }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{ site.url }}" />
-    <meta property="og:description" content="{{ site.title }}" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="{{ site.creator }}" />
- </head>
+
+{% include head.html %}
 
  <body>
     <div id="wrapper">
@@ -34,14 +18,7 @@
             <span id="3line" class="line"></i></span>
         </div>
 
-        <footer>
-            Created By {{ site.creator }}</br>
-         <a href="what">What is {{ site.shortname }}?</a>
-         <a href="updatelog">Update Log</a>
-         <a href="http://ctt.ec/2Bofm">Tweet Us!</a>
-         <a href="http://twitter.com/TRBMBPhraseGen">Twitter Bot</a><br/>
-         <a class="github-button" href="https://github.com/{{ site.repourl }}" data-icon="octicon-star" data-count-href="/{{ site.repourl }}/stargazers" data-count-api="/repos/{{ site.repourl }}#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star this on GitHub">Star</a>
-        </footer>
+     {% include footer.html %}
     </div>
  </body>
 </html>
