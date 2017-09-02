@@ -3,22 +3,23 @@
 
 {% include head.html %}
 
- <body>
-    <div id="wrapper">
-        <header>
-            <h1>{{ site.title }}</h1>
-        </header>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1>{{ site.title }}</h1>
+    </header>
 
-        <button id="startBttn" onclick="changeMessage()">Generate!</button>
+    <button id="startBttn" onclick="changeMessage()">Generate!</button>
 
-        <div id="trbmbline">
-            <span id="0line" class="line"></span><i>
-            <span id="1line" class="line"></i></span>
-            <span id="2line" class="line"></span><i>
-            <span id="3line" class="line"></i></span>
-        </div>
-
-     {% include footer.html %}
+    <div id="trbmbline">
+      <span id="0line" class="line"></span>
+      <i><span id="1line" class="line"></i></span>
+      <span id="2line" class="line"></span>
+      <i><span id="3line" class="line"></i></span>
     </div>
- </body>
+
+    {% include footer.html %}
+  </div>
+</body>
+
 </html>

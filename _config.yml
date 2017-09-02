@@ -1,12 +1,12 @@
 ---
 # Title The Generator
-title: That Really Blanks my Blank Generator
+title:     That Really Blanks my Blank Generator
 
 # Use this for an analogy, used for update page. EX: What is TRBMB?
 shortname: TRBMB
 
 # Who made the generator?
-creator: Chewsterchew
+creator:   Chewsterchew
 
 # Repo URL: THIS MUST BE Name/Repo. Ex: Chewsterchew/TRBMB-Gen
-repourl: Chewsterchew/TRBMB-Gen
+repourl:   Chewsterchew/TRBMB-Gen

@@ -7,8 +7,7 @@ var word1array = word1.split(",");
 var word2array = word2.split(",");
 
 var lines2 = [
-    ["That really"],
-    word1array,
-    ["my"],
-    word2array,
+  ["That really"],
+  word1array, ["my"],
+  word2array,
 ];
