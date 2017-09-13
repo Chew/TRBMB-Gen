@@ -10,3 +10,9 @@ creator:   Chewsterchew
 
 # Repo URL: THIS MUST BE Name/Repo. Ex: Chewsterchew/TRBMB-Gen
 repourl:   Chewsterchew/TRBMB-Gen
+
+# Footer Extra Content
+## You'll probably want to delete this (unless you have a twitter and bot for it too?)
+footer-extra: >
+  <a href="http://ctt.ec/2Bofm">Tweet Us!</a>
+  <a href="http://twitter.com/TRBMBPhraseGen">Twitter Bot</a><br/>
