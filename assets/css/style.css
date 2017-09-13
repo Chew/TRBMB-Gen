@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #9AE8B6;
+  color: #4B37E8;
+}
+
+div.wrap {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+  text-align: center;
+  font-family: 'Inconsolata', sans-serif;
+}
+
+#trbmbline {
+  padding-top: 7%;
+  padding-bottom: 2%;
+  font-size: 1.75em;
+}
+
+.line {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+}
+
+footer a {
+  font-size: 0.75em;
+}
+
+#startBttn {
+  color: black;
+  font-size: 0.8em;
+  height: 25px;
+  width: 150px;
+}
