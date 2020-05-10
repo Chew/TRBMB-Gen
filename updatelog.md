@@ -3,7 +3,7 @@ layout: info
 title: Update Log
 ---
 
-### I may not keep this updated, but I will put big news here. If you want quick commits, check out [here](https://github.com/Chewsterchew/TRBMB-Gen/commits/master)
+### I may not keep this updated, but I will put big news here. If you want quick commits, check out [here](https://github.com/Chew/TRBMB-Gen/commits/master)
 
 Feb 24th, 2017 - Improvements. New URL: http://trbmb.chew.pw. Removed disc link from what.<br/>
 Feb 10th, 2017 - Multiple improvements. New URL. Removed beta site (temp)<br/>
