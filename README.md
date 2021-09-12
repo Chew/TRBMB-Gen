@@ -1,7 +1,7 @@
 # TRBMB-Gen
 
-[![Join the chat at https://gitter.im/TRBMB/Lobby](https://badges.gitter.im/TRBMB/Lobby.svg)](https://gitter.im/TRBMB/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[Join us on Discord!](https://discord.gg/SaM5pzsb8G)
 
 Code for my That Really Blanks my Blank Generator!
 
-Visit the website here: http://trbmb.chew.pw
+Visit the website here: https://trbmb.chew.pw
